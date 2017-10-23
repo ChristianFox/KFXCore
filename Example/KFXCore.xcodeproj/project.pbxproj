@@ -37,9 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B33A4557516C606BB639037 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0B33A4557516C606BB639037 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1F3F29381C953755852F9FB2 /* Pods-KFXCore_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFXCore_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-KFXCore_Example/Pods-KFXCore_Example.release.xcconfig"; sourceTree = "<group>"; };
 		475B8309D6C7724803AACAF9 /* Pods_KFXCore_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KFXCore_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B474E0D1F9E76EB00D8AF7E /* NOTES.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = NOTES.md; sourceTree = "<group>"; };
+		5B474E0E1F9E76EB00D8AF7E /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* KFXCore_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KFXCore_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,9 +66,9 @@
 		A118500696A1BB832B01EEED /* Pods-KFXCore_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFXCore_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KFXCore_Tests/Pods-KFXCore_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AAA5AA8CA3A192BB95CAF296 /* Pods-KFXCore_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFXCore_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KFXCore_Tests/Pods-KFXCore_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E610E4DAF53E8E37F9B26A3D /* Pods_KFXCore_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KFXCore_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC62B01A4761665417F3302F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EC62B01A4761665417F3302F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FA9EFFEE57858B6E23ADCB72 /* Pods-KFXCore_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFXCore_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KFXCore_Example/Pods-KFXCore_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FB0220F27624C8B31E4B0BC4 /* KFXCore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KFXCore.podspec; path = ../KFXCore.podspec; sourceTree = "<group>"; };
+		FB0220F27624C8B31E4B0BC4 /* KFXCore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KFXCore.podspec; path = ../KFXCore.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +194,8 @@
 				FB0220F27624C8B31E4B0BC4 /* KFXCore.podspec */,
 				0B33A4557516C606BB639037 /* README.md */,
 				EC62B01A4761665417F3302F /* LICENSE */,
+				5B474E0E1F9E76EB00D8AF7E /* CHANGELOG.md */,
+				5B474E0D1F9E76EB00D8AF7E /* NOTES.md */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -203,6 +207,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "KFXCore_Example" */;
 			buildPhases = (
+				5B474E0C1F9E76A500D8AF7E /* Run Script - Increment Build No. */,
 				A3E031B876C14D869082A2DC /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
@@ -326,6 +331,20 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KFXCore_Example/Pods-KFXCore_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		5B474E0C1F9E76A500D8AF7E /* Run Script - Increment Build No. */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script - Increment Build No.";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"\n";
 		};
 		8BD597BCE9888D38EDE94A98 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
