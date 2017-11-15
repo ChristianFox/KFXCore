@@ -4,7 +4,7 @@
  * All Rights Reserved
  * Full licence details can be found in the file 'LICENSE' or in the Pods-{yourProjectName}-acknowledgements.markdown
  *
- * This file is included with KFXUtilities
+ * This file is included with KFXCore
  *
  ************************************/
 
@@ -94,7 +94,9 @@ typedef void(^KFXUpdateOccurredResultBlock)(BOOL updateOccured, NSError *_Nullab
 typedef void(^KFXSuccessResultBlock)(BOOL success, NSError *_Nullable error);
 typedef void(^KFXProgressBlock)(CGFloat progress);
 typedef void(^KFXProgressAndMessageBlock)(CGFloat progress, NSString *_Nullable message);
-typedef void(^KFXSyncComparisonArraysBlock)(NSArray *_Nullable created, NSArray *_Nullable updated, NSArray *_Nullable deleted);
+typedef void(^KFXSyncResultArraysBlock)(NSArray *_Nullable created, NSArray *_Nullable updated, NSArray *_Nullable deleted);
+typedef void(^KFXSyncResultDictionarysBlock)(NSDictionary *_Nullable created, NSDictionary *_Nullable updated, NSDictionary *_Nullable deleted);
+typedef void(^KFXSyncResultAnonObjectsBlock)(id _Nullable created, id _Nullable updated, id  _Nullable deleted);
 
 
 //-----------------------------------
