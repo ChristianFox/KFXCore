@@ -1,6 +1,8 @@
 
 # ChangeLog - KFXCore
 
+### v0.2.1 - Fixes 'KFXCommonDefinitions.h:87:34: warning: this block declaration is not a prototype [-Wstrict-prototypes]'
+
 ### v0.2.0
 - Adds KFXCore.h
 
