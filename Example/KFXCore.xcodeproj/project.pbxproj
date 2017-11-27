@@ -207,8 +207,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "KFXCore_Example" */;
 			buildPhases = (
-				5B474E0C1F9E76A500D8AF7E /* Run Script - Increment Build No. */,
 				A3E031B876C14D869082A2DC /* [CP] Check Pods Manifest.lock */,
+				5B474E0C1F9E76A500D8AF7E /* Run Script - Increment Build No. */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,

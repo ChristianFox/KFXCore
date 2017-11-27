@@ -34,6 +34,19 @@ double const kKilogramsPerPound = 0.45359237;
 double const kDegreesToRadians = M_PI / 180.0;
 double const kRadiansToDegrees = 180.0 / M_PI;
 
+
+//--------------------------------------------------------
+#pragma mark Time
+//--------------------------------------------------------
+NSInteger const kSecondsPerMinute = 60;
+NSInteger const kMinutesPerHour = 60;
+NSInteger const kHoursPerDay = 24;
+NSInteger const kDaysPerWeekGregorian = 7;
+NSInteger const kWeeksPerYearGregorian = 52;
+NSInteger const kMonthsPerYearGregorian = 12;
+NSInteger const kDaysPerYearNonLeapGregorian = 365;
+NSInteger const kDaysPerYearLeapGregorian = 366;
+
 //--------------------------------------------------------
 #pragma mark - Device Sizes
 //--------------------------------------------------------

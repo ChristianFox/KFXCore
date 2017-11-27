@@ -1,15 +1,15 @@
 PODS:
-  - KFXCore (0.1.0)
+  - KFXCore (0.3.0)
 
 DEPENDENCIES:
   - KFXCore (from `../`)
 
 EXTERNAL SOURCES:
   KFXCore:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  KFXCore: bf3a63e0e21ab468d09971e47f847d928c38af05
+  KFXCore: 99a4166cb6acd40ee24aa81b79cc2b1e4b228cee
 
 PODFILE CHECKSUM: 41be2fc803a57a7281645cc174e04dc5ebc66acd
 

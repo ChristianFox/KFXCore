@@ -16,7 +16,7 @@
 
 
 //--------------------------------------------------------
-#pragma mark - GeoLocation Constants
+#pragma mark GeoLocation Constants
 //--------------------------------------------------------
 extern double const kMetresPerDegreeLatitude;
 extern double const kMetresPerDegreeLongitude;
@@ -32,13 +32,24 @@ extern double const kMilesPerKilometre;
 extern double const kPoundsPerKilogram;
 extern double const kKilogramsPerPound;
 
-
 extern double const kDegreesToRadians;
 extern double const kRadiansToDegrees;
 
+//--------------------------------------------------------
+#pragma mark Time
+//--------------------------------------------------------
+extern NSInteger const kSecondsPerMinute;
+extern NSInteger const kMinutesPerHour;
+extern NSInteger const kHoursPerDay;
+extern NSInteger const kDaysPerWeekGregorian;
+extern NSInteger const kWeeksPerYearGregorian;
+extern NSInteger const kMonthsPerYearGregorian;
+extern NSInteger const kDaysPerYearNonLeapGregorian;
+extern NSInteger const kDaysPerYearLeapGregorian;
+
 
 //--------------------------------------------------------
-#pragma mark - Device Screen Sizes
+#pragma mark Device Screen Sizes
 //--------------------------------------------------------
 extern CGSize const kiPhoneXScreenSize; // X
 extern CGSize const kiPhonePlusScreenSize; // 6+, 7+, 8+

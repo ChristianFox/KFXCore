@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KFXCore'
-  s.version          = '0.2.1'
+  s.version          = '0.3.0'
   s.summary          = 'KFXCore - Core component for other KFX pods.'
   s.description      = <<-DESC
 KFXCore - Core component for other KFX pods. Basically just some useful constants and enums.
