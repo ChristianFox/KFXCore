@@ -37,7 +37,7 @@ pod 'KFXCore'
 
 ## Author
 
-ChristianFox, christianfox890@icloud.com
+ChristianFox, christianfox@kfxtech.com
 
 ## License
 

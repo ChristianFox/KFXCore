@@ -1,6 +1,8 @@
 
 # ChangeLog - KFXCore
 
+### v1.0.1 Updates podspec to point to github
+
 ### v1.0.0
 - Prefixes all constants with 'KFXCORE' instead of 'k'
 - Updates readme

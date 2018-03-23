@@ -1,5 +1,5 @@
 PODS:
-  - KFXCore (1.0.0)
+  - KFXCore (1.0.1)
 
 DEPENDENCIES:
   - KFXCore (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  KFXCore: afc506bd34515e2b5cd61ebf2e8d9dfe48979c83
+  KFXCore: 6a2dcd3bbb3c85ff535e74419b0a607c2d0bbc4a
 
-PODFILE CHECKSUM: 41be2fc803a57a7281645cc174e04dc5ebc66acd
+PODFILE CHECKSUM: 092325d0c9eeb5f953dac4416e0916cc338585fb
 
 COCOAPODS: 1.4.0
