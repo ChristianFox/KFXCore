@@ -1,6 +1,6 @@
 {
   "name": "KFXCore",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "summary": "KFXCore - Core component for other KFX pods.",
   "description": "KFXCore - Core component for other KFX pods. Basically just some useful constants and enums.",
   "homepage": "https://kfxtech@bitbucket.org/kfx_pods/kfxcore.git",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://kfxtech@bitbucket.org/kfx_pods/kfxcore.git",
-    "tag": "0.3.0"
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"

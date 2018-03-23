@@ -1,6 +1,11 @@
 
 # ChangeLog - KFXCore
 
+### v1.0.0
+- Prefixes all constants with 'KFXCORE' instead of 'k'
+- Updates readme
+- Updates licence
+
 ### v0.3.0
 - Adds some time and date constants
 

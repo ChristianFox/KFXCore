@@ -1,11 +1,11 @@
 use_frameworks!
+platform :ios, '8.0'
 
 target 'KFXCore_Example' do
   pod 'KFXCore', :path => '../'
 
   target 'KFXCore_Tests' do
     inherit! :search_paths
-
     
   end
 end
