@@ -61,8 +61,20 @@ extern double const KFXCOREKilogramsPerPound;
 #pragma mark Time
 //--------------------------------------------------------
 extern NSInteger const KFXCORESecondsPerMinute;
+extern NSInteger const KFXCORESecondsPerHour;
+extern NSInteger const KFXCORESecondsPerDay;
+extern NSInteger const KFXCORESecondsPerWeek;
+extern NSInteger const KFXCORESecondsPerYearNonLeapGregorian;
+extern NSInteger const KFXCORESecondsPerYearLeapGregorian;
 extern NSInteger const KFXCOREMinutesPerHour;
+extern NSInteger const KFXCOREMinutesPerDay;
+extern NSInteger const KFXCOREMinutesPerWeek;
+extern NSInteger const KFXCOREMinutesPerYearNonLeapGregorian;
+extern NSInteger const KFXCOREMinutesPerYearLeapGregorian;
 extern NSInteger const KFXCOREHoursPerDay;
+extern NSInteger const KFXCOREHoursPerWeek;
+extern NSInteger const KFXCOREHoursPerYearNonLeapGregorian;
+extern NSInteger const KFXCOREHoursPerYearLeapGregorian;
 extern NSInteger const KFXCOREDaysPerWeekGregorian;
 extern NSInteger const KFXCOREWeeksPerYearGregorian;
 extern NSInteger const KFXCOREMonthsPerYearGregorian;

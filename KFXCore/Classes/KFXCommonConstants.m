@@ -60,8 +60,20 @@ double const KFXCOREKilogramsPerPound = 0.45359237;
 #pragma mark Time
 //--------------------------------------------------------
 NSInteger const KFXCORESecondsPerMinute = 60;
+NSInteger const KFXCORESecondsPerHour = 3600;
+NSInteger const KFXCORESecondsPerDay = 86400;
+NSInteger const KFXCORESecondsPerWeek = 604800;
+NSInteger const KFXCORESecondsPerYearNonLeapGregorian = 31536000;
+NSInteger const KFXCORESecondsPerYearLeapGregorian = 31622400;
 NSInteger const KFXCOREMinutesPerHour = 60;
+NSInteger const KFXCOREMinutesPerDay = 1440;
+NSInteger const KFXCOREMinutesPerWeek = 10080;
+NSInteger const KFXCOREMinutesPerYearNonLeapGregorian = 525600;
+NSInteger const KFXCOREMinutesPerYearLeapGregorian = 527040;
 NSInteger const KFXCOREHoursPerDay = 24;
+NSInteger const KFXCOREHoursPerWeek = 168;
+NSInteger const KFXCOREHoursPerYearNonLeapGregorian = 8760;
+NSInteger const KFXCOREHoursPerYearLeapGregorian = 8784;
 NSInteger const KFXCOREDaysPerWeekGregorian = 7;
 NSInteger const KFXCOREWeeksPerYearGregorian = 52;
 NSInteger const KFXCOREMonthsPerYearGregorian = 12;

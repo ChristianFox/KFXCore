@@ -1,6 +1,8 @@
 
 # ChangeLog - KFXCore
 
+### v1.1.0 Adds more constants for the number of small time units in a larger time unit
+
 ### v1.0.1 Updates podspec to point to github
 
 ### v1.0.0

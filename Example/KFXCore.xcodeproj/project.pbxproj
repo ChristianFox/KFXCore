@@ -68,7 +68,7 @@
 		E610E4DAF53E8E37F9B26A3D /* Pods_KFXCore_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KFXCore_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC62B01A4761665417F3302F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FA9EFFEE57858B6E23ADCB72 /* Pods-KFXCore_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFXCore_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KFXCore_Example/Pods-KFXCore_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FB0220F27624C8B31E4B0BC4 /* KFXCore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KFXCore.podspec; path = ../KFXCore.podspec; sourceTree = "<group>"; };
+		FB0220F27624C8B31E4B0BC4 /* KFXCore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KFXCore.podspec; path = ../KFXCore.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
