@@ -1,6 +1,12 @@
 
 # ChangeLog - KFXCore
 
+### v2.0.0 | New X & watch devices. Possible breaking changes if using Device screen size enum or constants 
+- Fixes the wording of the degrees<>Radians constants
+- Add new iPhone Xr, Xs & Xs Max & Apple watch screen sizes constants & enum values
+- Adds device resolution constants & enum
+- Adds a few more constants
+
 ### v1.1.0 Adds more constants for the number of small time units in a larger time unit
 
 ### v1.0.1 Updates podspec to point to github
