@@ -1,6 +1,8 @@
 
 # ChangeLog - KFXCore
 
+### 2.1.0 | Adds watchOS support
+
 ### v2.0.0 | New X & watch devices. Possible breaking changes if using Device screen size enum or constants 
 - Fixes the wording of the degrees<>Radians constants
 - Add new iPhone Xr, Xs & Xs Max & Apple watch screen sizes constants & enum values

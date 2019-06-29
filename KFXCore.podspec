@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KFXCore'
-  s.version          = '2.0.0'
+  s.version          = '2.1.0'
   s.summary          = 'KFXCore - Core component for other KFX pods.'
   s.description      = <<-DESC
 KFXCore - Core component for other KFX pods. Basically just some useful constants and enums.
@@ -12,5 +12,6 @@ KFXCore - Core component for other KFX pods. Basically just some useful constant
   s.source           = { :git => 'https://github.com/ChristianFox/KFXCore.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
+  s.watchos.deployment_target = '2.0'
   s.source_files = 'KFXCore/Classes/**/*'
 end
