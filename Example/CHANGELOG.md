@@ -1,6 +1,8 @@
 
 # ChangeLog - KFXCore
 
+### 2.2.0 | Update to use newish cocoapods options incremental_installation and generate_multiple_pod_projects
+
 ### 2.1.0 | Adds watchOS support
 
 ### v2.0.0 | New X & watch devices. Possible breaking changes if using Device screen size enum or constants 

@@ -1,0 +1,32 @@
+BUILD_CONFIGURATIONS:
+  Debug: :debug
+  Release: :release
+CACHE_KEYS:
+  KFXCore:
+    BUILD_SETTINGS_CHECKSUM:
+      KFXCore:
+        :debug: 1616a2a33f442c3f418866ebc37001a3
+        :release: 1616a2a33f442c3f418866ebc37001a3
+    CHECKSUM: a2c6e051f44d966e14320ce8c1c53486f8cce523
+    FILES:
+      - "../../KFXCore/Classes/KFXCommonConstants.h"
+      - "../../KFXCore/Classes/KFXCommonConstants.m"
+      - "../../KFXCore/Classes/KFXCommonDefinitions.h"
+      - "../../KFXCore/Classes/KFXCommonDefinitions.m"
+      - "../../KFXCore/Classes/KFXCore.h"
+      - "../../LICENSE"
+      - "../../README.md"
+    PROJECT_NAME: KFXCore
+    SPECS:
+      - KFXCore (2.1.0)
+  Pods-KFXCore_Example:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: 92d9f7883da283c6b2ac5d608af38e74
+      Release: 92d9f7883da283c6b2ac5d608af38e74
+  Pods-KFXCore_Tests:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: e0e819d87c475e930d3b8abc1627b89f
+      Release: e0e819d87c475e930d3b8abc1627b89f
+OBJECT_VERSION: 46
+PLUGINS:
+  {}
